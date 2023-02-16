@@ -1,14 +1,15 @@
+using System;
+using RockPaperScissors.Enums;
 using RockPaperScissors.Models;
+using RockPaperScissors.Methods;
 
-namespace RockPaperScissors;
-
-public class Program
+namespace RockPaperScissors
 {
     // Creating the objects of humanPlayer and cpuPlayer
     Player humanPlayer = new Player();
     Player cpuPlayer = new Player();
 
-    // Give a name to the player
+// Give a name to the player
     InitHumanPlayer(humanPlayer);
 
     int playerWins;

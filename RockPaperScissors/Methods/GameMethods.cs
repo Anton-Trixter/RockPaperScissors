@@ -1,8 +1,8 @@
 using RockPaperScissors.Enums;
 using RockPaperScissors.Models;
-namespace RockPaperScissors.Functions;
+namespace RockPaperScissors.Methods;
 
-public static class GameFunctions
+public static class GameMethods
 {
     public static void InitHumanPlayer(Player humanPlayer)
     {
