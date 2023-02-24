@@ -1,8 +1,8 @@
 namespace RockPaperScissors.Enums;
 
-public enum PlayerGesture
+public enum Gesture
 {
-    Rock,
+    Rock = 1,
     Paper,
     Scissors
 }
